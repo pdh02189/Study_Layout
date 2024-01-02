@@ -17,6 +17,7 @@ css 선택자 : html  명령어를 선택해서 스타일을 정의하는 css �
     font-family: "Pretendard Variable", Pretendard, sans-serif;
 }
 
+/* display */
 h1 {
     display: flex;
     align-items: center;
@@ -69,7 +70,7 @@ p {
     padding: 0 2px;
     color: #fff;
 }
- .div {
+.div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,8 +79,24 @@ p {
     background: #f7f6ef;
     padding: 4px 10px;
     border-radius: 5px;
- }
+}
 
- .mt0 {
+.mt0 {
     margin-top: 0;
- }
+}
+
+/* display2 */
+.span1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(240, 248, 255);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(94, 102, 109);
+    margin: 0 auto;
+}
