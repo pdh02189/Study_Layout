@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*
+
+css 선택자 : html  명령어를 선택해서 스타일을 정의하는 css 문법
+
+1. 전체선택자 : *
+2. 태그 선택자 : p 또는 h1과 같은 명령어 <p>..</p>에서 p가 태그 선택자
+3. 클래스 선택자 : .classname (예: .my-photo or .art ...등등)
+4. 아이디 선택자 : #idname (예: #very-important or #exciting ..등등)
+5. 그룹 선택자 : , (콤마)
+** 5가지 외에 더 많이 있음 ==> 그래서 개발자가 어려워 함
+
+*/
+
+* {
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 36px;
+    line-height: 2em;
+    color: rgb(240, 86, 47);
+}
+
+.p_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 28px;
+    line-height: 1.5em;
+    color: rgb(247, 130, 35);
+}
+
+.p1 {
+    background-color: rgb(240, 248, 255);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(94, 102, 109);
+}
+
+.p2 strong {
+    background-color: rgb(253, 212, 30);
+    padding: 0 2px;
+    color: #fff;
+}
+ .div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 8px auto;
+    background: #f7f6ef;
+    padding: 4px 10px;
+    border-radius: 5px;
+ }
+
+ .mt0 {
+    margin-top: 0;
+ }
